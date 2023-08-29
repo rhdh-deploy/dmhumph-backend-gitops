@@ -1,0 +1,15 @@
+app:
+  name: dmhumph-poi-backend-app
+  namespace: dmhumph
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/dmhumph-backend
+  org: rhdh-deploy
+  name: dmhumph-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: dmhumph/poi-backend-app
+  tag: latest
